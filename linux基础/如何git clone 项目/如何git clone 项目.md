@@ -1,11 +1,13 @@
 1、首先需要去github 上注册一个账户  ，然后在服务器上配置你的账户名和邮箱
 
+sudo apt-get install git
+git init
 git config user.name "账户名"
 git config user.email "邮箱"
 
 2、在服务器上使用指令
 
-`cd ~/.ssh && ssh-keygen`
+`ssh-keygen && cd ~/.ssh `
 
 如何一直回车回车，执行完成后，再执行指令
 
