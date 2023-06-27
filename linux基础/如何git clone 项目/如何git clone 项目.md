@@ -1,4 +1,8 @@
-1、首先需要去github 上注册一个账户 
+1、首先需要去github 上注册一个账户  ，然后在服务器上配置你的账户名和邮箱
+
+git config user.name "账户名"
+git config user.email "邮箱"
+
 2、在服务器上使用指令
 
 `cd ~/.ssh && ssh-keygen`
